@@ -26,4 +26,4 @@ but if you are want to use it more high power,
 it needs 5V4A. Jetson nano has DC conecter, 2.1ｘ5.5ｘ9.5(mm) center plus.  
 If you use it, please connect J48 jamper pin.  
 
-![July21-1]()
+![July21-1](picture/July21-1.jpg)
