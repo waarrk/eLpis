@@ -26,4 +26,17 @@ but if you are want to use it more high power,
 it needs 5V4A. Jetson nano has DC conecter, 2.1ｘ5.5ｘ9.5(mm) center plus.  
 If you use it, please connect J48 jamper pin.  
 
-![July21-1](picture/July21-1.jpg)
+<img src="picture/July21-1.jpg" width=500px>
+
+## Connect jetson nano to Wifi
+Jetson nano has not wifi system so make it usable to development.
+### How to
+1. buy USB-wifi adapter ([This is mine](https://www.logitec.co.jp/products/wlan/lanw300anu2/index.php))
+2. Connect adapter to USB
+3. Choose SSID  
+
+My adapter is not need usb driver install so It was usable immediately by connecting.
+<img src="picture/July21-2.png" width=500px>
+<img src="picture/July21-3.jpg" width=500px>  
+  
+That's all thank you.
