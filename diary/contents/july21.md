@@ -16,8 +16,8 @@ Jetson nano is our main board in Yurubot.
 I referred to the [official site](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro).
 
 It is a shop where we bought it.
-* Jetson nano [Buy in Akituki Denshi](http://akizukidenshi.com/catalog/g/gM-14393/)
-* 5V 4A Power Cable [Buy in Akituki Denshi](http://akizukidenshi.com/catalog/g/gM-06238/)
+* Jetson nano [Buy in Akizuki Denshi Tushyo](http://akizukidenshi.com/catalog/g/gM-14393/)
+* 5V 4A Power Cable [Buy in Akizuki Denshi Tushyo](http://akizukidenshi.com/catalog/g/gM-06238/)
 * Fan [Buy in Amazon](https://www.amazon.co.jp/gp/product/B07SDGLZ1H/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * Micro SD (I bought it in Akiba !!!!)
 
