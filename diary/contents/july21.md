@@ -13,11 +13,17 @@ Witer : [waarrk](https://twitter.com/waarrk)
 
 ## I powered on Jetson nano
 Jetson nano is our main board in Yurubot.  
+I referred to the [official site](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro).
+
 It is a shop where we bought it.
 * Jetson nano [Buy in Akituki Denshi](http://akizukidenshi.com/catalog/g/gM-14393/)
 * 5V 4A Power Cable [Buy in Akituki Denshi](http://akizukidenshi.com/catalog/g/gM-06238/)
+* Fan [Buy in Amazon](https://www.amazon.co.jp/gp/product/B07SDGLZ1H/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
+* Micro SD (I bought it in Akiba !!!!)
 
 ※Jetson nano can move 5V2A with micro-usb  
 but if you are want to use it more high power,  
 it needs 5V4A. Jetson nano has DC conecter, 2.1ｘ5.5ｘ9.5(mm) center plus.  
-If you use it, please connect J48 jamper pin.
+If you use it, please connect J48 jamper pin.  
+
+![July21-1]()
