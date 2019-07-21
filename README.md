@@ -4,6 +4,7 @@ It's made by two person in National Institute of Technology ,Nagaoka College.
 
 ## This repository
 We will use this repository for two way.  
+
 First, diary.  
 We write diary by markdown here.  
 
