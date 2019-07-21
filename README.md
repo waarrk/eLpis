@@ -11,4 +11,4 @@ This is original purpose of github.
 
 ## Do you want read our diary?  
 Plese click this rink. 
-[Diary top page](diary/top)
+[Diary top page](diary/top.md)
