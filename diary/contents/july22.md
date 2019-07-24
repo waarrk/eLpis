@@ -77,4 +77,4 @@ Activate and reboot.
 sudo systemctl enable x0vncserver.service 
 sudo reboot yes
 ```
-That's 
+That's all thank you.
