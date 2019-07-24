@@ -2,6 +2,8 @@
 Yurubot is a robot for RCJMaze2020.  
 It's made by two person in National Institute of Technology ,Nagaoka College.  
 
+Writer are waarrk and JimHazeR.
+
 ## This repository
 We will use this repository for two way.  
 
