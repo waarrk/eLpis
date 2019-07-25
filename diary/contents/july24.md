@@ -26,4 +26,5 @@ rosrun turtlesim turtlesim_node
 ```
 If you have successfully installed ROS, you should see a turtle.  
 <img src="picture/July24-1.png" width=500px>
+
 That's all thank you.
