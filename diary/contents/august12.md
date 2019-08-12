@@ -38,6 +38,7 @@ catkin build
 ```
 
 Please connect path before using on /lider
+This is necessary to run.
 ```
 source devel/setup.bash
 ```
