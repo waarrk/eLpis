@@ -12,4 +12,4 @@ VNC connection from Windows PC/Setting VNC Server auto start on Jetson Nano
 Install ROS on Jetson Nano
 
 [August 12](contents/august12.md)  
-Install Lider's driver on ROS in PC for test.
+Install Lider's driver on ROS in PC for test
