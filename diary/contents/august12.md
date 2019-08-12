@@ -26,7 +26,7 @@ Third, get driver's repository from Github.
 ```
 git clone -b melodic-devel https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
 ```
-Fourth, install System dependencies.
+Fourth, install System Dependencies.
 ```
 cd ..
 rosdep init
