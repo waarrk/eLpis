@@ -1,0 +1,41 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/washio/yurubot/ros_src/cartographer/src/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_66069"
+[1/2] Building C object CMakeFiles/cmTC_66069.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_66069
+FAILED: cmTC_66069 
+: && /usr/bin/cc   -rdynamic CMakeFiles/cmTC_66069.dir/CheckSymbolExists.c.o  -o cmTC_66069   && :
+CMakeFiles/cmTC_66069.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+File /home/washio/yurubot/ros_src/cartographer/src/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/washio/yurubot/ros_src/cartographer/src/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_57662"
+[1/2] Building C object CMakeFiles/cmTC_57662.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_57662
+FAILED: cmTC_57662 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_57662.dir/CheckFunctionExists.c.o  -o cmTC_57662  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+

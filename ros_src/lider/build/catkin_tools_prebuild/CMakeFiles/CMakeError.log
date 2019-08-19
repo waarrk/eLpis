@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a3f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7a3f4.dir/build.make CMakeFiles/cmTC_7a3f4.dir/build
-make[1]: Entering directory '/home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a3f4.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7a3f4.dir/CheckSymbolExists.c.o   -c /home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_7a3f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3f4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a3f4.dir/CheckSymbolExists.c.o  -o cmTC_7a3f4 
-CMakeFiles/cmTC_7a3f4.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_d1f68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1f68.dir/build.make CMakeFiles/cmTC_d1f68.dir/build
+make[1]: Entering directory '/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1f68.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1f68.dir/CheckSymbolExists.c.o   -c /home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d1f68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f68.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1f68.dir/CheckSymbolExists.c.o  -o cmTC_d1f68 
+CMakeFiles/cmTC_d1f68.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7a3f4.dir/build.make:97: recipe for target 'cmTC_7a3f4' failed
-make[1]: *** [cmTC_7a3f4] Error 1
-make[1]: Leaving directory '/home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7a3f4/fast' failed
-make: *** [cmTC_7a3f4/fast] Error 2
+CMakeFiles/cmTC_d1f68.dir/build.make:97: recipe for target 'cmTC_d1f68' failed
+make[1]: *** [cmTC_d1f68] Error 1
+make[1]: Leaving directory '/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d1f68/fast' failed
+make: *** [cmTC_d1f68/fast] Error 2
 
-File /home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ae18/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ae18.dir/build.make CMakeFiles/cmTC_3ae18.dir/build
-make[1]: Entering directory '/home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ae18.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3ae18.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3ae18
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae18.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3ae18.dir/CheckFunctionExists.c.o  -o cmTC_3ae18 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_dbc08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbc08.dir/build.make CMakeFiles/cmTC_dbc08.dir/build
+make[1]: Entering directory '/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbc08.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dbc08.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbc08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbc08.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dbc08.dir/CheckFunctionExists.c.o  -o cmTC_dbc08 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3ae18.dir/build.make:97: recipe for target 'cmTC_3ae18' failed
-make[1]: *** [cmTC_3ae18] Error 1
-make[1]: Leaving directory '/home/washio/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3ae18/fast' failed
-make: *** [cmTC_3ae18/fast] Error 2
+CMakeFiles/cmTC_dbc08.dir/build.make:97: recipe for target 'cmTC_dbc08' failed
+make[1]: *** [cmTC_dbc08] Error 1
+make[1]: Leaving directory '/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dbc08/fast' failed
+make: *** [cmTC_dbc08/fast] Error 2
 
 

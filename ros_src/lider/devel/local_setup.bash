@@ -1,1 +1,1 @@
-/home/washio/lider/devel/.private/catkin_tools_prebuild/local_setup.bash
+/home/washio/yurubot/ros_src/lider/devel/.private/catkin_tools_prebuild/local_setup.bash

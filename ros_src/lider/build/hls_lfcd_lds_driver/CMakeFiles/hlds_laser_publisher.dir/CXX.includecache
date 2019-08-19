@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/washio/lider/src/hls_lfcd_lds_driver/include/hls_lfcd_lds_driver/lfcd_laser.h
+/home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver/include/hls_lfcd_lds_driver/lfcd_laser.h
 string
 -
 sensor_msgs/LaserScan.h
@@ -16,7 +16,7 @@ boost/asio.hpp
 boost/array.hpp
 -
 
-/home/washio/lider/src/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp
+/home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp
 ros/ros.h
 -
 std_msgs/UInt16.h

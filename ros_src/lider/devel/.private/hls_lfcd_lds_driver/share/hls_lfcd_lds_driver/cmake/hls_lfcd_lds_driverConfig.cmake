@@ -67,14 +67,14 @@ set(hls_lfcd_lds_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(hls_lfcd_lds_driver_SOURCE_PREFIX /home/washio/lider/src/hls_lfcd_lds_driver)
-  set(hls_lfcd_lds_driver_DEVEL_PREFIX /home/washio/lider/devel/.private/hls_lfcd_lds_driver)
+  set(hls_lfcd_lds_driver_SOURCE_PREFIX /home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver)
+  set(hls_lfcd_lds_driver_DEVEL_PREFIX /home/washio/yurubot/ros_src/lider/devel/.private/hls_lfcd_lds_driver)
   set(hls_lfcd_lds_driver_INSTALL_PREFIX "")
   set(hls_lfcd_lds_driver_PREFIX ${hls_lfcd_lds_driver_DEVEL_PREFIX})
 else()
   set(hls_lfcd_lds_driver_SOURCE_PREFIX "")
   set(hls_lfcd_lds_driver_DEVEL_PREFIX "")
-  set(hls_lfcd_lds_driver_INSTALL_PREFIX /home/washio/lider/install)
+  set(hls_lfcd_lds_driver_INSTALL_PREFIX /home/washio/yurubot/ros_src/lider/install)
   set(hls_lfcd_lds_driver_PREFIX ${hls_lfcd_lds_driver_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(hls_lfcd_lds_driver_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/washio/lider/src/hls_lfcd_lds_driver/include;/usr/include " STREQUAL " ")
+if(NOT "/home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver/include;/usr/include " STREQUAL " ")
   set(hls_lfcd_lds_driver_INCLUDE_DIRS "")
-  set(_include_dirs "/home/washio/lider/src/hls_lfcd_lds_driver/include;/usr/include")
+  set(_include_dirs "/home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver/include;/usr/include")
   if(NOT "https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/hls_lfcd_lds_driver " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/washio/lider/src/hls_lfcd_lds_driver/include;/usr/include " STREQU
         message(FATAL_ERROR "Project 'hls_lfcd_lds_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hls_lfcd_lds_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/washio/lider/src/hls_lfcd_lds_driver/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hls_lfcd_lds_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/washio/yurubot/ros_src/lider/src/hls_lfcd_lds_driver/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hls_lfcd_lds_driver_INCLUDE_DIRS ${include})
   endforeach()
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/washio/lider/devel/.private/hls_lfcd_lds_driver/lib;/home/washio/lider/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/washio/yurubot/ros_src/lider/devel/.private/hls_lfcd_lds_driver/lib;/home/washio/yurubot/ros_src/lider/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

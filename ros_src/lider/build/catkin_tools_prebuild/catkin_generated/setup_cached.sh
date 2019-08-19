@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/washio/lider/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD="/home/washio/lider/build/catkin_tools_prebuild"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/washio/lider/devel/.private/catkin_tools_prebuild/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/washio/lider/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/washio/yurubot/ros_src/lider/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD="/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/washio/yurubot/ros_src/lider/devel/.private/catkin_tools_prebuild/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/washio/yurubot/ros_src/lider/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

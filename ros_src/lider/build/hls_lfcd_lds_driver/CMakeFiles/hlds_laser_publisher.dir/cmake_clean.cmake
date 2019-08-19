@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o"
-  "/home/washio/lider/devel/.private/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher.pdb"
-  "/home/washio/lider/devel/.private/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher"
+  "/home/washio/yurubot/ros_src/lider/devel/.private/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher.pdb"
+  "/home/washio/yurubot/ros_src/lider/devel/.private/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher"
 )
 
 # Per-language clean rules from dependency scanning.
