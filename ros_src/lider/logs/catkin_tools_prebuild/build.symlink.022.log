@@ -1,0 +1,12 @@
+Symlinking /home/washio/lider/devel/./setup.zsh
+Symlinking /home/washio/lider/devel/./local_setup.bash
+Symlinking /home/washio/lider/devel/./setup.sh
+Symlinking /home/washio/lider/devel/./local_setup.zsh
+Symlinking /home/washio/lider/devel/./env.sh
+Linked: (/home/washio/lider/devel/.private/catkin_tools_prebuild/cmake.lock, /home/washio/lider/devel/./cmake.lock)
+Symlinking /home/washio/lider/devel/./_setup_util.py
+Symlinking /home/washio/lider/devel/./setup.bash
+Symlinking /home/washio/lider/devel/./local_setup.sh
+Linked: (/home/washio/lider/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/washio/lider/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Linked: (/home/washio/lider/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/washio/lider/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Linked: (/home/washio/lider/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/washio/lider/devel/lib/pkgconfig/catkin_tools_prebuild.pc)

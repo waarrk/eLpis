@@ -1,0 +1,6 @@
+devel_space: /home/washio/lider/devel
+install: false
+install_space: /home/washio/lider/install
+profile: default
+source_space: /home/washio/lider/src
+workspace: /home/washio/lider

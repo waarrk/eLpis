@@ -1,0 +1,8 @@
+prefix=/home/washio/slam/src/devel_isolated/cartographer_turtlebot
+
+Name: cartographer_turtlebot
+Description: Description of cartographer_turtlebot
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/washio/slam/src/devel_isolated/cartographer_turtlebot/lib 
+Requires: message_runtime cartographer_ros roscpp roslib sensor_msgs

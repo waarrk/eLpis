@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/washio/slam/src/devel_isolated/cartographer_ros/setup.sh
