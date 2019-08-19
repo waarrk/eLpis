@@ -1,2 +1,0 @@
-cartographer:cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:cartographer_turtlebot/cartographer_turtlebot:ceres-solver
--G Ninja -DCATKIN_DEVEL_PREFIX=/home/washio/slam/src/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/washio/slam/src/install_isolated
