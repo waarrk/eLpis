@@ -8,5 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros/lib/pkgconfig:$PKG_CONFIG_PATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros:$ROS_PACKAGE_PATH"

@@ -74,6 +74,8 @@
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/configuration_files/taurob_tracker.lua
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/configuration_files/transform.lua
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/configuration_files/visualize_pbstream.lua
+#/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/configuration_files/yurubot_rviz_test.rviz
+#/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/configuration_files/yurubot_slam.lua
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/assets_writer_backpack_2d.launch
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/assets_writer_backpack_3d.launch
@@ -93,6 +95,7 @@
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/offline_backpack_3d.launch
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/taurob_tracker.launch
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/visualize_pbstream.launch
+#/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/launch/yurubot_slam.launch
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/package.xml
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/scripts
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/scripts/cartographer_grpc_server.sh
@@ -103,3 +106,4 @@
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/urdf
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/urdf/backpack_2d.urdf
 #/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/urdf/backpack_3d.urdf
+#/home/washio/yurubot/ros_src/cartographer/src/src/cartographer_ros/cartographer_ros/urdf/yurubot_slam.urdf
