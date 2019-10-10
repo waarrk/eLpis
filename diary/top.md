@@ -18,5 +18,5 @@ Install Lider's driver on ROS in PC for test
 
 ### October
 
-[October 11](contents/october11.md)
+[October 11](contents/october11.md)  
 install SSH FS on VScode
