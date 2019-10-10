@@ -1,8 +1,0 @@
-prefix=/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros_msgs
-
-Name: cartographer_ros_msgs
-Description: Description of cartographer_ros_msgs
-Version: 1.0.0
-Cflags: -I/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros_msgs/include
-Libs: -L/home/washio/yurubot/ros_src/cartographer/src/devel_isolated/cartographer_ros_msgs/lib 
-Requires: geometry_msgs std_msgs message_runtime

@@ -1,2 +1,0 @@
-/home/washio/yurubot/ros_src/lider/devel/./cmake.lock 5
-/home/washio/lider/devel/./cmake.lock 27

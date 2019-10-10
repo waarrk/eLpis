@@ -1,8 +1,0 @@
-prefix=/home/washio/yurubot/ros_src/lider/install
-
-Name: hls_lfcd_lds_driver
-Description: Description of hls_lfcd_lds_driver
-Version: 1.1.0
-Cflags: -I/home/washio/yurubot/ros_src/lider/install/include -I/usr/include
-Libs: -L/home/washio/yurubot/ros_src/lider/install/lib 
-Requires: roscpp std_msgs sensor_msgs

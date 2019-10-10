@@ -1,1 +1,0 @@
-/home/washio/yurubot/ros_src/lider/devel/.private/catkin_tools_prebuild/setup.bash

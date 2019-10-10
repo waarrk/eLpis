@@ -1,5 +1,0 @@
-Symlinking /home/washio/yurubot/ros_src/lider/devel/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
-Symlinking /home/washio/yurubot/ros_src/lider/devel/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
-Symlinking /home/washio/yurubot/ros_src/lider/devel/lib/hls_lfcd_lds_driver/hlds_laser_publisher
-Symlinking /home/washio/yurubot/ros_src/lider/devel/lib/hls_lfcd_lds_driver/hlds_laser_segment_publisher
-Symlinking /home/washio/yurubot/ros_src/lider/devel/lib/pkgconfig/hls_lfcd_lds_driver.pc

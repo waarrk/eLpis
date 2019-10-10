@@ -1,6 +1,0 @@
-devel_space: /home/washio/yurubot/ros_src/lider/devel
-install: false
-install_space: /home/washio/yurubot/ros_src/lider/install
-profile: default
-source_space: /home/washio/yurubot/ros_src/lider/src
-workspace: /home/washio/yurubot/ros_src/lider
