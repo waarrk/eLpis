@@ -1,5 +1,5 @@
-# Yurubot
-Yurubot is a robot for RCJMaze2020.  
+# eLpis
+eLpis is a robot for RCJMaze2020.  
 It's made by two person in National Institute of Technology ,Nagaoka College.  
 
 Writer are waarrk and JimHazeR.
