@@ -1,0 +1,14 @@
+obstacle_range: 0.1
+raytrace_range: 0.1
+footprint: [[-0.08, -0.08], [-0.08, 0.08], [0.08, 0.08], [0.08, -0.08]]
+#robot_radius: ir_of_robot
+inflation_radius: 0.55
+ 
+observation_sources: laser_scan_sensor
+ 
+laser_scan_sensor: 
+  #sensor_frame: horizontal_laser_link
+  #topic: scan
+  data_type: LaserScan
+  marking: true
+  clearing: true

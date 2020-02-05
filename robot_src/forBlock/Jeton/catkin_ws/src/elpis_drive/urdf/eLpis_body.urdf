@@ -1,0 +1,40 @@
+<robot name="eLpis">
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 2.5"/>
+    </material>
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 2.0"/>
+    </material>
+
+    <link name="base_link"/>
+
+    <joint name="body_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="body_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    <link name="body_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://elpis_drive/stl/eLpis_STL.stl" />
+            </geometry>
+            <origin xyz="0 0 0.06" rpy="0 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <joint name="horizontal_laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="horizontal_laser_link"/>
+        <origin xyz="0.04 0 0.115" rpy="0 0 3.14"/>
+    </joint>
+    <link name="horizontal_laser_link">
+        <visual>
+            <geometry>
+                <box size="0.02 0.02 0.02" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="red"/>
+        </visual>
+    </link>
+</robot>

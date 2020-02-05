@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/catkin_cg/install_isolated/setup.sh

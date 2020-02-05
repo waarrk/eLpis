@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="rvizconfig" default="$(find elpis_drive)/rviz/move_base.rviz" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+
+    <!-- move_base -->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+      <rosparam file="$(find elpis_drive)/config/move_base/costmap_common_params.yaml" command="load" ns="global_costmap" />
+      <rosparam file="$(find elpis_drive)/config/move_base/costmap_common_params.yaml" command="load" ns="local_costmap" />
+      <rosparam file="$(find elpis_drive)/config/move_base/local_costmap_params.yaml" command="load" />
+      <rosparam file="$(find elpis_drive)/config/move_base/global_costmap_params.yaml" command="load" />
+      <rosparam file="$(find elpis_drive)/config/move_base/base_local_planner_params.yaml" command="load" />
+
+      <param name="global_costmap/laser_scan_sensor/sensor_frame" value="horizontal_laser_link" />
+      <param name="global_costmap/laser_scan_sensor/topic" value="scan" />
+      <param name="global_costmap/global_frame" value="map" />
+      <param name="global_costmap/robot_base_frame" value="base_link" />
+      <param name="local_costmap/laser_scan_sensor/sensor_frame" value="horizontal_laser_link" />
+      <param name="local_costmap/laser_scan_sensor/topic" value="scan" />
+      <param name="local_costmap/global_frame" value="odom" />
+      <param name="local_costmap/robot_base_frame" value="base_link" />
+      <remap from="cmd_vel" to="cmd_vel" />
+      <remap from="odom" to="odom" />
+    </node>
+
+  <!-- rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" >
+    <remap from="/goal" to="/move_base_simple/goal"/>
+  </node>
+</launch>
